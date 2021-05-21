@@ -3,7 +3,7 @@ import scala.io.StdIn.{readInt, readLine}
 
 object Task5 {
   /**
-   * Задача про диапазон чисел (собеседование в Сбере)
+   * Задача про сумму чисел из диапазона (собеседование в Сбере)
    */
   def findRange(numbers: Array[Int], target: Int): Array[Int] = {
     @tailrec
