@@ -1,4 +1,3 @@
-import scala.math.pow
 import scala.annotation.tailrec
 import scala.io.StdIn.readInt
 
@@ -29,6 +28,6 @@ object Task7 {
   }
 
   def main(args: Array[String]): Unit = {
-    print(getTree(readInt()).mkString("", "\n", ""))  // должно быть без лишних символов!
+    print(getTree(readInt()).mkString("", "\n", ""))
   }
 }
